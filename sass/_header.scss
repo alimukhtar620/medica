@@ -1,0 +1,160 @@
+.header{
+    background-color: #E5E5E5;
+    min-height: 75rem;
+    position: relative;
+    min-width: 80rem;
+   
+   
+
+}
+
+.navigation{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+
+    &__logo{
+        height: 3rem;
+        width: 3rem;
+        margin-left: 5rem;
+    }
+     
+
+    &__nav{
+        font-size: 1.8rem;
+        font-weight: 700;
+        
+        
+
+    }
+    &__list{
+        display: flex;
+     justify-content: space-around;
+     
+
+    }
+    &__item{
+
+        list-style: none;
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+     
+        &:not(:last-child){
+            padding-right: 2.5rem;
+        }
+    }
+
+    &__link{
+        color: #767676;
+      text-decoration: none;
+
+      .span-1{
+        color: $color-secondary;
+      }
+    }
+
+    &__button{
+    margin-right: 3rem;
+    }
+    &__btn{
+        text-decoration: none;
+        &:not(:last-child){
+            padding-right: 1rem;
+        }
+     font-size: 1.8rem;
+     font-weight: 700;
+     color: #767676;
+
+     .span-2{
+        background-color: $color-secondary;
+        padding: .8rem;
+        color: white;
+     }
+    
+    }
+}
+
+.headers{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    
+
+    
+
+    &__heading{
+        
+        margin-left: 4rem;
+        
+    }
+    &__heading-1{
+
+        
+
+        font-size: 5.5rem;
+        font-weight: 700;
+        &:not(:last-child){
+            padding-top: 10rem;
+        }
+
+        span{
+            color: $color-secondary;
+        }
+
+        .span-3{
+            color: #f2f2f2;
+            font-size: 4.5rem;
+            padding-left: 4rem;
+        }
+    }
+    &__photo{
+        flex:1;
+     height: 50rem;
+     width: 80rem;
+    }
+
+
+
+}
+    
+
+.select{
+
+    position: absolute;
+    top:65%;
+    // left:0;
+    // right: 0;
+    width: 96.5%;
+    box-shadow: 0 .4rem 3.5rem 0 $color-tertiary;
+    padding: 1.5rem;
+    
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        min-width: 50%;
+    }
+ &__options{
+     
+     width: 15rem;
+     border: none;
+     padding: 0 3rem;
+ }
+  &__heading{
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  &__btn{
+    background-color: $color-secondary;
+    width: 15rem;
+    padding: 1.5rem;
+    border: none;
+    color: #f2f2f2;
+    margin-left: 3rem;
+  }
+
+}
+
+
+    

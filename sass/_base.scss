@@ -1,0 +1,32 @@
+// FONT VARIABLES
+$font-primary: 'PT Sans', sans-serif;
+
+//colors
+
+$color-primary: #000000;
+
+$color-secondary: #2B88D9;
+$color-secondary-2: #5A9AD2;
+
+$color-tertiary: #F1F8FF;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    background-color: white;
+}
