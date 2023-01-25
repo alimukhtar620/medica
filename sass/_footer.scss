@@ -1,0 +1,220 @@
+.footer{
+    margin: 8rem auto;
+    background-color: #F1F8FF;
+    min-height: 50vh;
+    display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     padding: 10rem 4rem 4rem;
+   
+    position: relative;
+
+    
+
+   
+
+    
+    &__col-1{
+       display: flex;
+        flex-direction: column;
+        width: 40%;
+      @media only screen and (max-width:$bp-medium){
+        width: 50%;
+      }
+      @media only screen and (max-width:$bp-mediumest){
+        width: 100%;
+        text-align: center;
+      }
+       
+  
+    }
+    &__col-2{
+        display: flex;
+         flex-direction: column;
+         width: 20%;
+         @media only screen and (max-width:$bp-medium){
+            width: 50%;
+          }
+          @media only screen and (max-width:$bp-mediumest){
+            width: 100%;
+            text-align: center;
+          }
+     }
+     &__col-3{
+        display: flex;
+         flex-direction: column;
+         width: 20%;
+         @media only screen and (max-width:$bp-medium){
+            width: 50%;
+          }
+          @media only screen and (max-width:$bp-mediumest){
+            width: 100%;
+         text-align: center;
+          }
+   
+     }
+     &__col-4{
+        display: flex;
+         flex-direction: column;
+         width: 20%;
+         @media only screen and (max-width:$bp-medium){
+            width: 50%;
+          }
+          @media only screen and (max-width:$bp-mediumest){
+            width: 100%;
+            text-align: center;
+          }
+     }
+       
+    
+
+    
+    
+    
+
+    &__list-1{
+        list-style: none;
+        padding-bottom: 3rem;
+        @media only screen and (max-width: $bp-small){
+           text-align: center;
+        }
+    }
+    &__list-2{
+        list-style: none;
+        padding-bottom: 10rem;
+        
+         @media only screen and (max-width: $bp-mediumest){
+            text-align: center;
+            padding-bottom: 4rem;
+         }
+         @media only screen and (max-width: $bp-smallest){
+            text-align: center;
+            padding-bottom: 2rem;
+         }
+         @media only screen and (max-width: $bp-small){
+            text-align: center;
+            padding-bottom: 1.5rem;
+         }
+    }
+    &__list-3{
+        list-style: none;
+        padding-bottom: 10rem;
+        @media only screen and (max-width: $bp-small){
+            text-align: center;
+         }
+       
+    }
+
+    &__item{
+        &:not(:last-child){
+            padding-bottom: 1rem;
+        }
+    }
+
+    &__link{
+        text-decoration: none;
+        color: #000000;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+
+    }
+    &__logos{
+        display: flex;
+        padding-left: 1rem;
+        @media only screen and (max-width:$bp-mediumest){
+            padding-left: 22rem;
+          }
+          @media only screen and (max-width:$bp-smallest){
+            padding-left: 18rem;
+          }
+          @media only screen and (max-width:$bp-small){
+            padding-left: 14rem;
+          }
+          @media only screen and (max-width:$bp-smal){
+            padding-left: 9rem;
+          }
+          @media only screen and (max-width:$bp-sma){
+            padding-left: 6rem;
+
+          }
+        
+    }
+    &__h4{
+        font-size: 2rem;
+        font-weight: 400;
+        color:  #2B90DC;
+        padding-left: 1rem;
+    }
+
+    &__paragraph{
+        padding-left:1rem;
+        
+    }
+    &__para{
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    &__icons{
+        display: flex;
+        padding-left:1rem;
+        @media only screen and (max-width:$bp-mediumest){
+            padding-left: 26rem;
+            //padding-bottom: 2rem;
+          }
+          @media only screen and (max-width:$bp-smallest){
+            padding-left: 21.5rem;
+          }
+          @media only screen and (max-width:$bp-small){
+            padding-left: 17rem;
+          }
+          @media only screen and (max-width:$bp-smal){
+            padding-left: 12rem;
+          }
+          @media only screen and (max-width:$bp-sma){
+
+            padding-left: 7.5rem;
+    }
+    }
+
+    &__iconns{
+        margin: 0 1rem 1rem 0;
+        background-color: white;
+    }
+
+    &__heading{
+        font-size: 1.8rem;
+        font-size: 700;
+    }
+    &__foot{
+        padding-top: 3rem;
+    }
+
+    &__copyright{
+    position: absolute;
+    top: 90%;
+    left: 2%;
+    @media only screen and (max-width:$bp-mediumest){
+    top: 90%;
+    left: 42%;
+      }
+    @media only screen and (max-width: $bp-small){
+        top: 90%;
+        left:38%;
+    }
+    @media only screen and (max-width: $bp-smal){
+        top: 90%;
+        left:35%;
+    }
+    }
+    &__copy{
+        font-size: 1rem;
+        font-weight: 400;
+        color: #1D1D1D;
+     span{
+        color: #939393;
+     }
+    }
+    }

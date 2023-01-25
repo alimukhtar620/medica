@@ -11,6 +11,24 @@ $color-secondary-2: #5A9AD2;
 $color-tertiary: #F1F8FF;
 
 
+
+//breakpoints
+
+
+$bp-largeed: 112.5em; // 1800px
+$bp-larged: 96.875em; //1550px
+$bp-larg: 81.25em; // 1300px
+$bp-lar: 68.75em; // 1100px
+$bp-largest: 75em; // 1200px 
+$bp-large: 62.5em; // 1000px
+$bp-medium: 56.25em; // 900px
+$bp-mediumest: 50em; //800px
+$bp-smallest: 43.75em;// 700px
+$bp-small: 37.5em; // 600px
+$bp-smal: 31.25em; // 500px
+$bp-sma: 24.375em; // 390px
+
+
 *{
     margin: 0;
     padding: 0;

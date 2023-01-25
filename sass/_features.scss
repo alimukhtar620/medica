@@ -1,5 +1,143 @@
-.banner{
-    min-height: 20%;
+.banners{
+   
     margin: 8rem auto;
     background-color: #E5E5E5;
+    
+
+    display: flex;
+
+    &__banner-1{
+    flex: 0 0 50%;
+    }
+
+    &__photo{
+
+        height: auto;
+        width: 100%;      
+    }
+
+    &__banner-2{
+    flex: 0 0 50%;
+    }
+
+
+    &__heading{
+    
+     display: flex;
+     flex-direction: column;
+   
+    
+    }
+
+
+    &__heading-1{
+     font-size: 6rem;
+     font-weight: 700;
+     padding: 2rem;
+        margin: 2.5rem;
+        @media only screen and (max-width: $bp-larg){
+            font-size: 5rem;
+            padding: 2rem;
+            margin: 2.2rem;
+        }
+        @media only screen and (max-width: $bp-largest){
+            font-size: 4rem;
+            padding: 2rem;
+            margin: 1.9rem;
+        }
+        @media only screen and (max-width: $bp-large){
+            font-size: 3rem;
+            padding: 2rem;
+            margin: 1.6rem;
+        }
+        @media only screen and (max-width: $bp-medium){
+            font-size: 2rem;
+            padding: 2rem;
+            margin: 1.2rem;
+        }
+        @media only screen and (max-width: $bp-small){
+            font-size: 1rem;
+            padding: 2rem;
+            margin: .6rem;
+        }
+
+        span{
+            color: $color-secondary;
+        }
+
+      
+
+    }
+
+    &__paragraph{
+
+        font-size: 3rem;
+        font-weight: 400;
+        color: #6A6A6A;
+        padding: 2rem;
+        margin: 2.5rem;
+        @media only screen and (max-width: $bp-larg){
+            font-size: 2.5rem;
+            padding: 1.8rem;
+            margin: 2.2rem;
+        }
+        @media only screen and (max-width: $bp-largest){
+            font-size: 2rem;
+            padding: 1.6rem;
+            margin: 1.9rem;
+        }
+        @media only screen and (max-width: $bp-large){
+            font-size: 1.5rem;
+            padding: 1.4rem;
+            margin: 1.6rem;
+        }
+        @media only screen and (max-width: $bp-medium){
+            font-size: 1rem;
+            padding: 1.2rem;
+            margin: 1.3rem;
+        }
+        @media only screen and (max-width: $bp-small){
+            font-size: .9rem;
+            padding: .5rem;
+            margin: .5rem;
+        }
+     
+    }
+
+    &__img{
+        display: flex;
+        margin: 2rem;
+        padding: 1rem;
+        @media only screen and (max-width: $bp-large){
+            padding: .8rem;
+            margin: 1.7rem;
+        }
+        @media only screen and (max-width: $bp-medium){
+            padding: .7rem;
+            margin: 1.3rem;
+        }
+        @media only screen and (max-width: $bp-small){
+            padding: .5rem;
+            margin: .8rem;
+        }
+   
+    }
+
+    &__imgs-1{
+    width: 100%;
+    height: auto;
+    }
+    &__imgs-2{
+       width: 54.4%;
+       height: auto;
+    }
+    &__pic-1{
+        margin-right: 2.5rem;
+        flex: 0 0 49%;
+        width: 100%;
+    }
+    &__pic-2{
+        flex: 0 0 49%;
+        width: 100%;
+    }
 }
